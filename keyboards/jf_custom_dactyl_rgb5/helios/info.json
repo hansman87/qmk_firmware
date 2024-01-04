@@ -1,0 +1,27 @@
+{
+    "keyboard_name": "jf_custom_dactyl_rgb4",
+        "manufacturer": "JF",
+    "maintainer": "hansman87",
+    "usb": {
+        "pid": "0xCB00",
+        "vid": "0x2004",
+        "device_version": "2.0.0"
+    },
+        "rgb_matrix": {
+        "driver": "ws2812"
+    },
+        "ws2812": {
+        "pin": "GP0",
+        "driver": "vendor"
+    },
+    "matrix_pins": {
+        "cols": ["GP4", "GP5", "GP6", "GP7", "GP8", "GP9"],
+        "rows": ["GP27", "GP26", "GP22", "GP20", "GP23", "GP21"]
+    },
+    "diode_direction": "COL2ROW",
+    "split": {
+        "soft_serial_pin": "GP1"
+    },
+    "processor": "RP2040",
+    "bootloader": "rp2040"
+}
