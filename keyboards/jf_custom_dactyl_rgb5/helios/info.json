@@ -1,14 +1,11 @@
 {
-    "keyboard_name": "jf_custom_dactyl_rgb4",
+    "keyboard_name": "jf_custom_dactyl_rgb5",
         "manufacturer": "JF",
     "maintainer": "hansman87",
     "usb": {
         "pid": "0xCB00",
         "vid": "0x2004",
         "device_version": "2.0.0"
-    },
-        "rgb_matrix": {
-        "driver": "ws2812"
     },
         "ws2812": {
         "pin": "GP0",

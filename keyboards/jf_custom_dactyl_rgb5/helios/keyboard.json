@@ -1,15 +1,35 @@
 {
-    "manufacturer": "JF",
     "keyboard_name": "jf_custom_dactyl_rgb5",
+        "manufacturer": "JF",
     "maintainer": "hansman87",
     "usb": {
-        "device_version": "1.0.0",
         "pid": "0xCB00",
-        "vid": "0x2004"
+        "vid": "0x2004",
+        "device_version": "2.0.0"
+  },
+        "ws2812": {
+        "pin": "GP0",
+        "driver": "vendor"
+  },
+      "diode_direction": "COL2ROW",
+    "split": {
+    "enabled": true,
+        "soft_serial_pin": "GP1"
+
+  },
+    "matrix_pins": {
+        "cols": ["GP4", "GP5", "GP6", "GP7", "GP8", "GP9"],
+        "rows": ["GP27", "GP26", "GP22", "GP20", "GP23", "GP21"]
+  },
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+        "build": {
+        "lto": true
     },
-    "dynamic_keymap": {
+
+   "dynamic_keymap": {
     "layer_count": 8
-}
+},
    "layouts": {
         "LAYOUT_split_4x6_5": {
             "layout": [
@@ -100,3 +120,4 @@
         }
     }
 }
+

@@ -18,3 +18,6 @@ RGBLIGHT_ENABLE = yes     # Enable keyboard RGB matrix functionality
 SPLIT_KEYBOARD = yes
 NO_USB_STARTUP_CHECK = yes
 SERIAL_DRIVER = vendor
+RGBLIGHT_DRIVER = ws2812
+WS2812_DI_PIN = GP0
+USB_VBUS_PIN = GP1
